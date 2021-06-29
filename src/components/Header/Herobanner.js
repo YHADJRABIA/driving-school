@@ -1,11 +1,14 @@
 import React from "react";
 import HeroImage from "../svg/HeroImage";
+import Bounce from "react-reveal/Bounce";
 
 const Herobanner = () => {
   return (
     <>
       <div className="hero-banner">
-        <HeroImage />
+        <Bounce left>
+          <HeroImage />
+        </Bounce>
         <div className="hero-text">
           <h1 className="hero-title">L'auto-école qui en jette !</h1>
           <h4 className="hero-content">

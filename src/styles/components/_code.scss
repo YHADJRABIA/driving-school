@@ -1,16 +1,16 @@
 .code-section {
   @include flexCenter(column);
-}
-.code-section-text {
-  margin-bottom: 15rem;
-  & > * {
-    margin: 5rem 0;
+  &-text {
+    margin-bottom: 15rem;
+    & > * {
+      margin: 5rem 0;
+    }
   }
-}
 
-.code-section-content {
-  margin: 0 1.5rem;
-  text-align: left;
+  &-content {
+    margin: 0 1.5rem;
+    text-align: left;
+  }
 }
 
 @include respond-to("medium") {
@@ -20,8 +20,8 @@
   .code-section {
     flex-direction: row;
     justify-content: space-evenly;
-  }
-  .code-section-content {
-    width: 80rem;
+    &-content {
+      width: 80rem;
+    }
   }
 }

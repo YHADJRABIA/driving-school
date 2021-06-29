@@ -6,7 +6,6 @@ const DrivingImage = () => {
       className="svg"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
       width="1024.09"
       height="784.98"
       viewBox="0 0 1024.09 784.98"
@@ -20,9 +19,9 @@ const DrivingImage = () => {
           y2="303.88"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset="0" stopColor="gray" stopOpacity="0.25" />
+          <stop offset="0.54" stopColor="gray" stopOpacity="0.12" />
+          <stop offset="1" stopColor="gray" stopOpacity="0.1" />
         </linearGradient>
         <linearGradient
           id="dfe83c1b-cff5-4c37-a040-65f303183b02"
@@ -31,7 +30,6 @@ const DrivingImage = () => {
           x2="711.17"
           y2="302.34"
           gradientTransform="translate(131.32 -162.61) rotate(15.07)"
-          xlink:href="#4e272d34-4a95-491b-8eeb-ec3c2b1ff143"
         />
         <linearGradient
           id="b4eb3044-adbb-4263-a632-f34b940e5ebc"
@@ -39,7 +37,6 @@ const DrivingImage = () => {
           y1="775.34"
           x2="320.65"
           y2="216.33"
-          xlink:href="#4e272d34-4a95-491b-8eeb-ec3c2b1ff143"
         />
       </defs>
       <title>electric_car</title>
@@ -54,8 +51,8 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#535461"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <path
         d="M969,227.76c0,6.06-11,23.63-11,23.63s-11-17.57-11-23.63a11,11,0,1,1,21.94,0Z"
@@ -139,8 +136,8 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#535461"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <path
         d="M1030,306.76c0,6.06-11,23.63-11,23.63s-11-17.57-11-23.63a11,11,0,1,1,21.94,0Z"
@@ -339,8 +336,8 @@ const DrivingImage = () => {
         r="11.05"
         fill="none"
         stroke="#6f7d95"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <circle cx="385.59" cy="484.47" r="2.76" fill="#6f7d95" />
       <circle
@@ -405,8 +402,8 @@ const DrivingImage = () => {
         r="8.4"
         fill="none"
         stroke="#6f7d95"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <circle cx="907.62" cy="420.67" r="2.1" fill="#6f7d95" />
       <circle
@@ -561,21 +558,21 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#ff4d52"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M117.54,542s34.93,26.94,105.53,20.68"
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#ff4d52"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M119.15,554.69S153.8,584.76,225,575.23"
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#ff4d52"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M864.64,353.67S836.46,378,810.74,389C810.74,389,849.8,395.95,864.64,353.67Z"
@@ -811,7 +808,7 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M877.3,466.14c0,6.62-4.86,12-4.86,12s-4.86-5.37-4.86-12,4.86-12,4.86-12S877.3,459.52,877.3,466.14Z"
@@ -823,7 +820,7 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M876,466.14c0,6.62,4.86,12,4.86,12s4.86-5.37,4.86-12-4.86-12-4.86-12S876,459.52,876,466.14Z"
@@ -840,7 +837,7 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M893.5,466.14c0,6.62-4.86,12-4.86,12s-4.86-5.37-4.86-12,4.86-12,4.86-12S893.5,459.52,893.5,466.14Z"
@@ -877,7 +874,7 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M892.21,466.14c0,6.62,4.86,12,4.86,12s4.86-5.37,4.86-12-4.86-12-4.86-12S892.21,459.52,892.21,466.14Z"
@@ -909,21 +906,21 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M881.11,509.74s-10.53-16.6-25.32-17"
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M879.74,533.44s10.53-16.6,25.32-17"
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <circle cx="826.19" cy="441.17" r="2.73" fill="#2563eb" />
       <circle cx="768.09" cy="431.37" r="2.73" fill="#2563eb" />
@@ -932,7 +929,7 @@ const DrivingImage = () => {
         transform="translate(-87.95 -61.51)"
         fill="none"
         stroke="#2563eb"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <circle cx="774.47" cy="460.54" r="2.73" fill="#2563eb" />
       <circle cx="817.31" cy="455.07" r="2.73" fill="#2563eb" />

@@ -1,3 +1,54 @@
 .about-section {
-  height: 50rem;
+  @include flexCenter(column);
+  &-text {
+    margin-bottom: 15rem;
+    & > * {
+      margin: 5rem 0;
+    }
+  }
+
+  &-content {
+    text-align: left;
+    padding: 0 2rem;
+  }
+}
+.badges {
+  @include flexCenter(column);
+  justify-content: space-evenly;
+}
+.badge {
+  &-icon {
+    padding: 2rem;
+    background-color: $primary-black;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    margin: 3rem;
+  }
+  &:not(:last-child) {
+    margin-bottom: 10rem;
+  }
+}
+
+@include respond-to("medium") {
+  .badges {
+    flex-direction: row;
+    & > :last-child {
+      margin-bottom: 10rem;
+    }
+  }
+
+  .badge {
+    &-icon {
+      margin: 7rem;
+    }
+  }
+}
+
+@include respond-to("large") {
+  .about-section {
+    &-content {
+      width: 100rem;
+    }
+  }
 }

@@ -8,8 +8,8 @@ const Body = () => {
     <main>
       <Code />
       <Driving />
-      <About />
       <Cards />
+      <About />
     </main>
   );
 };

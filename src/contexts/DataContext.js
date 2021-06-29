@@ -54,6 +54,21 @@ export const DataProvider = ({ children }) => {
       },
     ],
 
+    /* Cards */
+
+    cards: [],
+    services: [
+      {
+        title: "Auto-école agréée",
+      },
+      {
+        title: "Faîtes des économies.",
+      },
+      {
+        title: "S'adapte à votre rythme.",
+      },
+    ],
+
     /* Footer */
     footerItems: [
       {

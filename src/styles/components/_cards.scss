@@ -1,17 +1,16 @@
 .cards {
   @include flexCenter(column);
   justify-content: space-around;
-  & > *:not(:first-child) {
-    margin-top: 5rem;
+  & > *:not(:last-child) {
+    margin-bottom: 5rem;
   }
 }
 
 .card {
   @include flexCenter(column);
   justify-content: space-around;
-  height: 55rem;
-  margin: 0 0.5rem;
-  width: 100%;
+  padding: 0 4rem;
+  height: 60rem;
   border-radius: 1rem;
   background-color: #fff;
   border: 1px $secondary-white solid;
@@ -26,10 +25,31 @@
   }
   &-header {
     @include flexCenter(column);
-    height: 10rem;
-    justify-content: space-between;
+    & > * {
+      margin-bottom: 2rem;
+    }
   }
   &-title {
+  }
+  &-icon {
+    color: white;
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: blue;
+  }
+
+  &-summary {
+    margin-top: 3rem;
+  }
+
+  &-body {
+    li {
+      margin-bottom: 2rem;
+    }
+    li:before {
+      margin-right: 1rem;
+      content: "✓";
+    }
   }
 }
 
@@ -37,10 +57,15 @@
 @include respond-to("medium") {
   .cards {
     flex-direction: row;
+    & > *:not(:last-child) {
+      margin-bottom: unset;
+    }
   }
   .card {
-    width: 35rem;
+    margin: auto 2rem;
   }
 }
 @include respond-to("large") {
+  .cards {
+  }
 }

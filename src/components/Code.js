@@ -1,5 +1,6 @@
 import React from "react";
 import CodeImage from "./svg/CodeImage";
+import Tada from "react-reveal/Tada";
 
 const Code = () => {
   return (
@@ -13,8 +14,9 @@ const Code = () => {
           Neque, itaque?
         </p>
       </div>
-
-      <CodeImage />
+      <Tada>
+        <CodeImage />
+      </Tada>
     </section>
   );
 };
