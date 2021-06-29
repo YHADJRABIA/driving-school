@@ -1,0 +1,16 @@
+main {
+  section {
+    text-align: center;
+    padding-bottom: 10rem;
+    &:not(:first-child) {
+      padding-top: 10rem;
+    }
+
+    &:nth-child(even) {
+      background-color: $primary-white;
+    }
+    &:nth-child(odd) {
+      background-color: #fff;
+    }
+  }
+}

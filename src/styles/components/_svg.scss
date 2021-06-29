@@ -1,0 +1,19 @@
+.svg {
+  width: 90%;
+  height: 25rem;
+}
+
+/*------------ Reponsive -----------*/
+@include respond-to("medium") {
+  .svg {
+    width: 50rem;
+    height: 35rem;
+  }
+}
+
+@include respond-to("large") {
+  .svg {
+    width: 55rem;
+    height: 40rem;
+  }
+}

@@ -1,0 +1,46 @@
+.cards {
+  @include flexCenter(column);
+  justify-content: space-around;
+  & > *:not(:first-child) {
+    margin-top: 5rem;
+  }
+}
+
+.card {
+  @include flexCenter(column);
+  justify-content: space-around;
+  height: 55rem;
+  margin: 0 0.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #fff;
+  border: 1px $secondary-white solid;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  transition-property: transform, box-shadow;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.025);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  }
+  &-header {
+    @include flexCenter(column);
+    height: 10rem;
+    justify-content: space-between;
+  }
+  &-title {
+  }
+}
+
+/*----------- Responsive --------------*/
+@include respond-to("medium") {
+  .cards {
+    flex-direction: row;
+  }
+  .card {
+    width: 35rem;
+  }
+}
+@include respond-to("large") {
+}
