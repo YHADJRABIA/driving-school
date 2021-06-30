@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Badge from "./Badge";
+import Map from "./Map";
 import Flip from "react-reveal/Flip";
 
 import { DataContext } from "../contexts/DataContext";
@@ -17,6 +18,7 @@ const About = () => {
           Neque, itaque?
         </p>
       </div>
+
       <div className="badges">
         {services.map((el, id) => (
           <div key={id} className="badge">
@@ -27,6 +29,7 @@ const About = () => {
           </div>
         ))}
       </div>
+      <Map />
     </section>
   );
 };

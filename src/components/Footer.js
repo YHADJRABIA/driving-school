@@ -26,7 +26,7 @@ const Footer = () => {
         {contact.map((el, id) => (
           <address key={id}>
             <i className={el.cName}></i>
-            <a href={el.href} title={el.name}>
+            <a href={el.href} title={el.name} target="blank">
               {el.name}
             </a>
           </address>
@@ -56,7 +56,12 @@ const Footer = () => {
         droits réservés.
       </small>
       <hr />
-      <small className="developped-by">Développé par #####</small>
+      <small className="developped-by">
+        Réalisé par{" "}
+        <a href="https://github.com/YHADJRABIA/" title="Yacine HADJ RABIA">
+          Yacine H R
+        </a>
+      </small>
     </footer>
   );
 };

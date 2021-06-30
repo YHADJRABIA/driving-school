@@ -5,7 +5,7 @@ footer {
   justify-content: space-evenly;
   text-align: center;
   & > * {
-    fill: $primary-white;
+    fill: $primary-yellow;
     color: $primary-white;
     margin: 1.5rem 0;
   }
@@ -60,7 +60,8 @@ footer {
   color: $primary-yellow;
 }
 
-.developped-by {
+.developped-by a {
+  color: $primary-yellow;
 }
 
 /*------------- Responsive ------------*/
@@ -78,7 +79,7 @@ footer {
   .coordinates {
     @include flexCenter(row);
     justify-content: space-around;
-    width: 70rem;
+    width: 100vw;
     & address {
       all: unset;
     }
@@ -92,6 +93,9 @@ footer {
   }
 }
 @include respond-to("large") {
+  .coordinates {
+    width: 100rem;
+  }
   .footer-nav {
     width: 100rem;
   }

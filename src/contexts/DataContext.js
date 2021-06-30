@@ -9,7 +9,6 @@ export const DataProvider = ({ children }) => {
   const content = {
     company: {
       name: "Europ' auto-école",
-      logo: "fab fa-react",
     },
 
     contact: [
@@ -19,14 +18,14 @@ export const DataProvider = ({ children }) => {
         href: "https://www.google.com/search?q=4+Rue+de+la+Gare+%E2%80%94+42490+Fraisses&oq=4+Rue+de+la+Gare+%E2%80%94+42490+Fraisses&aqs=chrome..69i57.417j0j7&sourceid=chrome&ie=UTF-8#",
       },
       {
-        name: "0123456789",
+        name: "06 74 44 74 87",
         cName: "fas fa-phone",
-        href: "tel:0123456789",
+        href: "tel:0674447487",
       },
       {
-        name: "E-mail@mail.fr",
+        name: "europautoecole@bbox.fr",
         cName: "fas fa-at",
-        href: "mailto:someone@example.com",
+        href: "mailto:europautoecole@bbox.fr",
       },
     ],
 
@@ -34,35 +33,63 @@ export const DataProvider = ({ children }) => {
     navItems: [
       {
         title: "Code de la route",
-        url: "/",
+        url: "#code-section",
         cName: "nav-links",
       },
       {
         title: "Permis de conduire",
-        url: "#",
+        url: "#driving-section",
         cName: "nav-links",
       },
       {
         title: "Nos offres",
-        url: "#",
+        url: "#our-services",
         cName: "nav-links",
       },
       {
         title: "À propos",
-        url: "#",
+        url: "#about-section",
         cName: "nav-links",
       },
     ],
 
     /* Cards */
 
-    cards: [],
-    services: [
+    cards: [
       {
-        title: "Auto-école agréée",
+        title: "Code de la route",
+        price: "100",
+        cName: "fas fa-traffic-light",
+        content: "Lorem ipsum dolor sit amet",
+        arg1: "argument 1",
+        arg2: "argument 2",
+        arg3: "argument 3",
       },
       {
-        title: "Faîtes des économies.",
+        title: "Pack complet",
+        price: "####",
+        cName: "fas fa-car",
+        content: "Lorem ipsum dolor sit amet",
+        arg1: "argument 1",
+        arg2: "argument 2",
+        arg3: "argument 3",
+      },
+      {
+        title: "Permis de conduire",
+        price: "####",
+        cName: "fas fa-id-card",
+        content: "Lorem ipsum dolor sit amet",
+        arg1: "argument 1",
+        arg2: "argument 2",
+        arg3: "argument 3",
+      },
+    ],
+    services: [
+      {
+        title: "Auto-école agréée.",
+      },
+      {
+        title: "Faites des économies.",
       },
       {
         title: "S'adapte à votre rythme.",
@@ -122,28 +149,11 @@ export const DataProvider = ({ children }) => {
           },
         ],
       },
-      {
-        title: "Section 4",
-        content: [
-          {
-            subtitle: "Sous-titre 1",
-            url: "#",
-          },
-          {
-            subtitle: "Sous-titre 2",
-            url: "#",
-          },
-          {
-            subtitle: "Sous-titre 3",
-            url: "#",
-          },
-        ],
-      },
     ],
     socialMedia: [
       {
         title: "Facebook",
-        path: "",
+        path: "https://www.facebook.com/europautoecole/?referrer=services_landing_page",
         cName: "fab fa-facebook",
       },
       {

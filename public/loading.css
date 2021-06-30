@@ -6,29 +6,24 @@
   justify-content: center;
 }
 
-.car {
-  &__body {
-    animation: shake 0.2s ease-in-out infinite alternate;
-  }
+.car__body {
+  animation: shake 0.2s ease-in-out infinite alternate;
+}
+.car__line {
+  transform-origin: center right;
+  stroke-dasharray: 22;
+  animation: line 0.8s ease-in-out infinite;
+  animation-fill-mode: both;
+}
 
-  &__line {
-    transform-origin: center right;
-    stroke-dasharray: 22;
-    animation: line 0.8s ease-in-out infinite;
-    animation-fill-mode: both;
-
-    &--top {
-      animation-delay: 0s;
-    }
-
-    &--middle {
-      animation-delay: 0.2s;
-    }
-
-    &--bottom {
-      animation-delay: 0.4s;
-    }
-  }
+.car__line--top {
+  animation-delay: 0s;
+}
+.car__line--middle {
+  animation-delay: 0.2s;
+}
+.car__line--bottom {
+  animation-delay: 0.4s;
 }
 
 @keyframes shake {

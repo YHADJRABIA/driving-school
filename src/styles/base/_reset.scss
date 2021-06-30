@@ -27,3 +27,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+
+/* Applies offset to anchor tags to navigate to element at desired height */
+/* a.anchor {
+  display: block;
+  position: relative;
+  top: -2rem;
+  visibility: hidden;
+} */

@@ -10,6 +10,7 @@ const Badge1 = () => {
       height="646.93595"
       viewBox="0 0 590.81881 646.93595"
     >
+      <title>Agréées par l'état !</title>
       <circle cx="119.02093" cy="512.16388" r="14.92017" fill="#f0f0f0" />
       <circle cx="91.40748" cy="519.28992" r="10.46638" fill="#f0f0f0" />
       <circle cx="112.91481" cy="50" r="12" fill="#ccc" />

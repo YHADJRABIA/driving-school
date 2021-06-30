@@ -8,6 +8,7 @@ main {
 
     &:nth-child(even) {
       background-color: $primary-white;
+      box-shadow: 1.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
     }
     &:nth-child(odd) {
       background-color: #fff;

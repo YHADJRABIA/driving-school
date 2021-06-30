@@ -19,7 +19,7 @@ const Nav = () => {
 
   return (
     <nav className={`navbar ${navbar ? "active" : ""}`}>
-      <Link to="/">
+      <Link to="/" title="Europ' auto-école">
         <svg
           className="nav-logo"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,9 +39,13 @@ const Nav = () => {
       <ul className={`nav-menu ${toggled ? "active" : ""}`}>
         {navItems.map((item, id) => (
           <li key={id}>
-            <Link to={item.url} className={item.cName}>
+            <a
+              href={item.url}
+              alt={item.title}
+              className={`${item.cName} anchor `}
+            >
               {item.title}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>

@@ -12,6 +12,32 @@
     padding: 0 2rem;
   }
 }
+
+/* Leaflet Map */
+
+.leaflet-container {
+  margin-top: 10rem;
+  width: 80vw;
+  height: 45vw;
+  border: 0px solid $primary-black;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.1%;
+}
+.leaflet-top,
+.leaflet-left,
+.leaflet-bottom,
+.leaflet-right {
+  background: transparent;
+  z-index: 500;
+}
+
+.leaflet-popup-tip-container,
+.leaflet-marker-icon,
+.leaflet-shadow-pane {
+  background: transparent;
+}
+
 .badges {
   @include flexCenter(column);
   justify-content: space-evenly;
@@ -50,5 +76,10 @@
     &-content {
       width: 100rem;
     }
+  }
+
+  .leaflet-container {
+    width: 128rem;
+    height: 50rem; //72
   }
 }

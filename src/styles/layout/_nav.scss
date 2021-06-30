@@ -14,10 +14,14 @@
   }
   &.active {
     background: $primary-blue;
-    box-shadow: 0 0.3rem 0.9rem rgba(94, 96, 206, 0.8);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
     border-radius: 0 0 0.5rem 0.5rem;
     .nav-logo {
-      fill: $primary-white;
+      fill: $primary-yellow;
+    }
+    .nav-links:hover {
+      color: $primary-yellow;
     }
   }
 }
@@ -93,7 +97,7 @@
   .nav-links {
     font-size: 1.8rem;
     transition: all 0.3s ease;
-    transition-property: border-radius, background-color, left, transform,
+    transition-property: border-radius, background-color, left, transform, color,
       font-weight;
     color: $primary-black;
     width: initial;
