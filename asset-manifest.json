@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/auto-ecole/static/css/main.bf1dd8e9.chunk.css",
-    "main.js": "/auto-ecole/static/js/main.a297508f.chunk.js",
-    "main.js.map": "/auto-ecole/static/js/main.a297508f.chunk.js.map",
-    "runtime-main.js": "/auto-ecole/static/js/runtime-main.2d88212c.js",
-    "runtime-main.js.map": "/auto-ecole/static/js/runtime-main.2d88212c.js.map",
-    "static/js/2.afcc4d18.chunk.js": "/auto-ecole/static/js/2.afcc4d18.chunk.js",
-    "static/js/2.afcc4d18.chunk.js.map": "/auto-ecole/static/js/2.afcc4d18.chunk.js.map",
-    "index.html": "/auto-ecole/index.html",
-    "static/css/main.bf1dd8e9.chunk.css.map": "/auto-ecole/static/css/main.bf1dd8e9.chunk.css.map",
-    "static/js/2.afcc4d18.chunk.js.LICENSE.txt": "/auto-ecole/static/js/2.afcc4d18.chunk.js.LICENSE.txt"
+    "main.css": "/driving-school/static/css/main.bf1dd8e9.chunk.css",
+    "main.js": "/driving-school/static/js/main.a297508f.chunk.js",
+    "main.js.map": "/driving-school/static/js/main.a297508f.chunk.js.map",
+    "runtime-main.js": "/driving-school/static/js/runtime-main.ff452345.js",
+    "runtime-main.js.map": "/driving-school/static/js/runtime-main.ff452345.js.map",
+    "static/js/2.afcc4d18.chunk.js": "/driving-school/static/js/2.afcc4d18.chunk.js",
+    "static/js/2.afcc4d18.chunk.js.map": "/driving-school/static/js/2.afcc4d18.chunk.js.map",
+    "index.html": "/driving-school/index.html",
+    "static/css/main.bf1dd8e9.chunk.css.map": "/driving-school/static/css/main.bf1dd8e9.chunk.css.map",
+    "static/js/2.afcc4d18.chunk.js.LICENSE.txt": "/driving-school/static/js/2.afcc4d18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d88212c.js",
+    "static/js/runtime-main.ff452345.js",
     "static/js/2.afcc4d18.chunk.js",
     "static/css/main.bf1dd8e9.chunk.css",
     "static/js/main.a297508f.chunk.js"
