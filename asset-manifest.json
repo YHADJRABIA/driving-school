@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/auto-ecole/static/css/main.bf1dd8e9.chunk.css",
+    "main.js": "/auto-ecole/static/js/main.a297508f.chunk.js",
+    "main.js.map": "/auto-ecole/static/js/main.a297508f.chunk.js.map",
+    "runtime-main.js": "/auto-ecole/static/js/runtime-main.2d88212c.js",
+    "runtime-main.js.map": "/auto-ecole/static/js/runtime-main.2d88212c.js.map",
+    "static/js/2.afcc4d18.chunk.js": "/auto-ecole/static/js/2.afcc4d18.chunk.js",
+    "static/js/2.afcc4d18.chunk.js.map": "/auto-ecole/static/js/2.afcc4d18.chunk.js.map",
+    "index.html": "/auto-ecole/index.html",
+    "static/css/main.bf1dd8e9.chunk.css.map": "/auto-ecole/static/css/main.bf1dd8e9.chunk.css.map",
+    "static/js/2.afcc4d18.chunk.js.LICENSE.txt": "/auto-ecole/static/js/2.afcc4d18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d88212c.js",
+    "static/js/2.afcc4d18.chunk.js",
+    "static/css/main.bf1dd8e9.chunk.css",
+    "static/js/main.a297508f.chunk.js"
+  ]
+}
