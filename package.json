@@ -2,7 +2,7 @@
   "name": "europ-driving-school",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yhadjrabia.github.io/auto-ecole",
+  "homepage": "http://yhadjrabia.github.io/driving-school",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
